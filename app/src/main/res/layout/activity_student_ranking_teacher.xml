@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentRankingTeacher">
+
+    <TextView
+        android:id="@+id/firstActivityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Ranking Place Teacher"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Enter"
+        android:textSize="20sp"
+        android:onClick="btnEnterStudentRank"
+        android:layout_centerInParent="true"
+
+        android:layout_below="@id/spinner"
+
+        />
+
+</RelativeLayout>
